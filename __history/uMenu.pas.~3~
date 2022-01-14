@@ -1,0 +1,34 @@
+unit uMenu;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TForm2 = class(TForm)
+    TituloPrincipal: TLabel;
+    procedure BtnEmpezarClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+uses Form1;
+
+{$R *.dfm}
+
+procedure TForm2.BtnEmpezarClick(Sender: TObject);
+begin
+   BtnEmpezar.Visible := false;
+   TituloPrincipal.Visible := false;
+   InitJuego();
+end;
+
+end.

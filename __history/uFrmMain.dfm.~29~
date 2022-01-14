@@ -1,0 +1,61 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 450
+  ClientWidth = 654
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 13
+  object TituloPrincipal: TLabel
+    Left = 88
+    Top = 24
+    Width = 458
+    Height = 40
+    Caption = 'Bienvenido al Proyecto SO1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -33
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object MediaPlayer1: TMediaPlayer
+    Left = 192
+    Top = 400
+    Width = 253
+    Height = 30
+    AutoRewind = False
+    DoubleBuffered = True
+    Visible = False
+    ParentDoubleBuffered = False
+    TabOrder = 0
+  end
+  object MainMenu: TMainMenu
+    Left = 584
+    Top = 64
+    object Juego1: TMenuItem
+      Caption = 'Opciones'
+      object N1: TMenuItem
+        Caption = '-'
+      end
+      object Jugar1: TMenuItem
+        Caption = 'Jugar'
+        OnClick = Jugar1Click
+      end
+      object Salir: TMenuItem
+        Caption = '&Salir'
+        OnClick = SalirClick
+      end
+    end
+  end
+end

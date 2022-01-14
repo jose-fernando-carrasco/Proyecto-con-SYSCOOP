@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/06/17 16:37:46.393.dfm,C:\Users\ellieser\Documents\RAD Studio\Projects\Unit1.dfm=E:\GINO\UAGRM\Juego\uFrmMain.dfm</Transaction>
+    <Transaction>2013/06/17 16:37:46.393.pas,C:\Users\ellieser\Documents\RAD Studio\Projects\Unit1.pas=E:\GINO\UAGRM\Juego\uFrmMain.pas</Transaction>
+    <Transaction>2013/06/17 16:38:04.044.dproj,C:\Users\ellieser\Documents\RAD Studio\Projects\Project1.dproj=E:\GINO\UAGRM\Juego\JuegoSO1.dproj</Transaction>
+    <Transaction>2021/12/27 20:36:09.000.874,=C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1\Unit2.pas</Transaction>
+    <Transaction>2021/12/27 20:36:55.000.268,C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1\uMenu.pas=C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1\Unit2.pas</Transaction>
+    <Transaction>2021/12/27 20:36:55.000.268,C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1\uMenu.dfm=C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1\Unit2.dfm</Transaction>
+    <Transaction>2021/12/27 23:35:47.000.524,C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1\JuegoSO1.dproj=C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1\JuegoSO1Jose219064857.dproj</Transaction>
+    <Transaction>2021/12/27 23:43:00.000.580,C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1Jose219064857\ProySO1.dproj=C:\Josè Fernando Oña Carrasco\SO1 INF323\Salvacion\JuegoSO1Jose219064857\JuegoSO1Jose219064857.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

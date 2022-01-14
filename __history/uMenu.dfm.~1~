@@ -1,0 +1,42 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 433
+  ClientWidth = 622
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  PixelsPerInch = 96
+  TextHeight = 15
+  object TituloPrincipal: TLabel
+    Left = 64
+    Top = 32
+    Width = 458
+    Height = 40
+    Caption = 'Bienvenido al Proyecto SO1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -33
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object BtnEmpezar: TButton
+    Left = 224
+    Top = 240
+    Width = 113
+    Height = 57
+    Caption = 'Empezar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -23
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+end
